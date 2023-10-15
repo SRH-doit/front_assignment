@@ -1,0 +1,107 @@
+body {
+    padding: 0 0;
+    margin: 0 0;
+    background-color: rgb(239, 242, 245);
+}
+.all {
+    padding: 0 0;
+    position: absolute;
+    margin: 0 0 0 0;
+    display: flex;
+    flex-direction: row;
+    top: 30%;
+    left: 20%;
+}
+.main {
+    width: 250px;
+    transform: translate(-30px, 0);
+}
+.sul {
+    font-size: 30px;
+    font-weight: 800;
+}
+.a {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.b {
+    display: flex;
+    flex-direction: column;
+    transform: translate(100px, -90px);
+}
+.c > * {
+    padding: 15px 0;
+}
+.c {
+    padding: 15px 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 450px;
+    box-shadow: 1px 1px 7px gray;
+}
+.new {
+    padding: 20px 0;
+    transform: translate(70px);
+}
+#searching input {
+    width: 420px;
+    height: 55px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border: 1px solid rgb(172, 172, 172);
+    background: white;
+    font-size: 17px;
+    transition: all 0.5s;
+}
+
+#searching input:hover {
+    border: 1px solid blue;
+}
+.gSearch {
+    transform: translate(15px, 0);
+}
+.login {
+    background-color: blue;
+    opacity: 0.7;
+    color: white;
+    border-radius: 7px;
+    width: 420px;
+    height: 23px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(15px, 8px);
+    font-size: 20px;
+}
+.forgot {
+    opacity: 0.7;
+    color: blue;
+    border-radius: 7px;
+    width: 350px;
+    height: 23px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(50px, 14px);
+}
+.sign {
+    background-color: rgb(2, 185, 2);
+    opacity: 0.7;
+    color: white;
+    border-radius: 7px;
+    width: 170px;
+    height: 23px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+    font-size: 20px;
+    transform: translate(140px, 0);
+}
